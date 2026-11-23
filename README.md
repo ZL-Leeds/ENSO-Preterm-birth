@@ -11,8 +11,8 @@ the HadISST EOF patterns and PC time series.
 
 | File | Main variables and dimensions |
 | --- | --- |
-| `era5_t2m_reconstruction_PC1_1980-2026_unmasked.nc` | Complete PC1 temperature contribution, `t2m_reconstructed(year, lagmonth, latitude, longitude)`, 47 × 13 × 721 × 1440. Includes `pc(year)`, `is_forecast(year)` and `time(year, lagmonth)`. File size 1,899,604,930 bytes. |
-| `era5_t2m_reconstruction_PC2_1980-2026_unmasked.nc` | Complete PC2 temperature contribution, with the same variables and dimensions as the PC1 file. File size 1,928,682,721 bytes. |
+| `era5_t2m_reconstruction_PC1_1980-2026_unmasked.nc` | Complete PC1 temperature contribution, `t2m_reconstructed(year, lagmonth, latitude, longitude)`, 47 × 13 × 721 × 1440. Includes `pc(year)`, `is_forecast(year)` and `time(year, lagmonth)`. |
+| `era5_t2m_reconstruction_PC2_1980-2026_unmasked.nc` | Complete PC2 temperature contribution, with the same variables and dimensions as the PC1 file. |
 | `era5_t2m_event_reconstruction.nc` | Significance-masked contributions for 1982/83, 1997/98, 2015/16, 2023/24 and 2026/27. Contains `t2m_reconstructed(year, mode, lagmonth, latitude, longitude)`, 5 × 2 × 13 × 721 × 1440, plus `pc(year, mode)`, `is_forecast(year)` and `time(year, lagmonth)`. |
 | `era5_t2m_monthly_regression.nc` | `beta`, `p_value` and `significant`, each with dimensions `(mode, lagmonth, latitude, longitude)`, 2 × 13 × 721 × 1440. The coefficient and p-value fields cover the full grid. |
 | `hadisst_djf_eof_pc.nc` | `pc(year, mode)` for 77 winters (76 historical and one forecast), `is_forecast(year)`, `eof(mode, latitude, longitude)` on the 40 × 160 tropical Pacific grid, `eof_variance_fraction(mode)` and `valid_sst_grid(latitude, longitude)`. |
