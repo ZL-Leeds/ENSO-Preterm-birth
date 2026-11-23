@@ -11,7 +11,7 @@ the HadISST EOF patterns and PC time series.
 
 | File | Main variables and dimensions |
 | --- | --- |
-| `era5_t2m_reconstruction_PC1_1980-2026_unmasked.nc` | Complete PC1 temperature contribution, `t2m_reconstructed(year, lagmonth, latitude, longitude)`, 47 × 13 × 721 × 1440. Includes `pc(year)`, `is_forecast(year)` and `time(year, lagmonth)`. |
+| `era5_t2m_reconstruction_PC1_1980-2026_unmasked.nc` | Complete PC1 temperature contribution, `t2m_reconstructed(year, lagmonth, latitude, longitude)`, 47 × 13 × 721 × 1440. Includes `pc(year)`, `is_forecast(year)` and `time(year, lagmonth)`. Year 1980 refer DJF 1980/1981. |
 | `era5_t2m_reconstruction_PC2_1980-2026_unmasked.nc` | Complete PC2 temperature contribution, with the same variables and dimensions as the PC1 file. |
 | `era5_t2m_event_reconstruction.nc` | Significance-masked contributions for 1982/83, 1997/98, 2015/16, 2023/24 and 2026/27. Contains `t2m_reconstructed(year, mode, lagmonth, latitude, longitude)`, 5 × 2 × 13 × 721 × 1440, plus `pc(year, mode)`, `is_forecast(year)` and `time(year, lagmonth)`. |
 | `era5_t2m_monthly_regression.nc` | `beta`, `p_value` and `significant`, each with dimensions `(mode, lagmonth, latitude, longitude)`, 2 × 13 × 721 × 1440. The coefficient and p-value fields cover the full grid. |
